@@ -8,6 +8,10 @@
 #### The map is a 100 x 100 grid of neurons each containing a weight vector corresponding to its RGB value. The neuron weights are randomly initialized using the computer's clock time as a seed. Training involves randomly selecting an input from one of 24 unique colors, finding a "winning" neuron using Euclidean distance, and adjusting the "neighborhood" weights. I used a Gaussian function whose amplitude and radius decrease as the number of epochs increases to determine how much to adjust the "neighborhood" weights. Because the neuron weights are randomly initialized, the map converges differently each time. Sometimes the map converges quickly and elegantly while othertimes the map has difficulty in reaching stable equilibrium or filling in the gaps between clusters.
 <br />
 
+![alt text](KohonenNN/ML.png)
+
+<br>
+
 ![alt text](KohonenNN/0001.jpg)
 ![alt text](KohonenNN/0002.jpg)
 ![alt text](KohonenNN/0003.jpg)
